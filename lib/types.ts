@@ -1,6 +1,10 @@
+export type MediaCategory = "anime" | "game";
+
 export interface Media {
   id: number;
   idMal?: number | null;
+  category?: MediaCategory; // undefined = anime (default, keeps existing behavior)
+  slug?: string | null; // games are addressed by RAWG slug
   title: string;
   titleSecondary?: string | null;
   cover: string;
@@ -56,11 +60,13 @@ export interface MediaDetail extends Media {
 
 /** Route href for any media (personal list items resolve by MAL id). */
 export function mediaHref(m: Media): string {
+  if (m.category === "game") return `/game/${m.slug ?? m.id}`;
   if (m.personal && m.idMal) return `/title/m${m.idMal}`;
   return `/title/${m.id}`;
 }
 
 /** Stable library key for a title (client-safe — no server imports). */
-export function entryKey(m: Pick<Media, "id" | "idMal">): string {
+export function entryKey(m: Pick<Media, "id" | "idMal" | "category">): string {
+  if (m.category === "game") return `g${m.id}`;
   return m.idMal ? `m${m.idMal}` : `a${m.id}`;
 }
