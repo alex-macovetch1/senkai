@@ -30,16 +30,26 @@ export default async function Home() {
   const romance = await getByGenre("Romance");
   const fantasy = await getByGenre("Fantasy");
   const scifi = await getByGenre("Sci-Fi");
-  // other categories — different hosts, so no AniList rate-limit concern
-  const topMovies = await getTopMovies();
-  const topSeries = await getTopSeries();
-  const games = await getPopularGames();
+  // other categories — different hosts: fetch in parallel to keep the page fast
+  const [topMovies, topSeries, games] = await Promise.all([
+    getTopMovies(),
+    getTopSeries(),
+    getPopularGames(),
+  ]);
+
+  // Hero mixes anime, movies and series (Hero itself keeps only items with a banner + description)
+  const heroItems: typeof trending = [];
+  for (let i = 0; i < 6 && heroItems.length < 12; i++) {
+    if (trending[i]) heroItems.push(trending[i]);
+    if (topMovies[i]) heroItems.push(topMovies[i]);
+    if (topSeries[i]) heroItems.push(topSeries[i]);
+  }
 
   const spotlight = topRated.find((m) => m.banner) || trending.find((m) => m.banner);
 
   return (
     <div className="pb-10">
-      <Hero items={trending} />
+      <Hero items={heroItems} />
 
       {/* content rows overlap hero slightly */}
       <div className="relative z-20 -mt-8 space-y-2">
