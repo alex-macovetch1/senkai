@@ -12,6 +12,7 @@ const LINKS: [string, string][] = [
   ["Home", "/"],
   ["Browse", "/browse"],
   ["Movies", "/browse?format=MOVIE"],
+  ["Games", "/games"],
   ["My List", "/my-list"],
 ];
 
