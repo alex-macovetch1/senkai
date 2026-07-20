@@ -66,7 +66,8 @@ export default function TitleActions({ media, trailerId }: { media: Media; trail
   }, [toast]);
 
   const slim: Media = {
-    id: media.id, idMal: media.idMal, title: media.title, cover: media.cover,
+    id: media.id, idMal: media.idMal, category: media.category, slug: media.slug,
+    title: media.title, cover: media.cover,
     score: media.score, format: media.format, year: media.year, episodes: media.episodes, personal: true,
   };
 
