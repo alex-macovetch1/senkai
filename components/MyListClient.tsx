@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Media } from "@/lib/types";
 import { mediaHref } from "@/lib/types";
@@ -217,15 +217,70 @@ function AchievementsPanel({ stats, items }: { stats: Stats; items: Media[] }) {
 
 export default function MyListClient({ items, stats, name, guest = false }: { items: Media[]; stats: Stats; name: string; guest?: boolean }) {
   const [active, setActive] = useState("all");
+  const [cat, setCat] = useState<"all" | "anime" | "cine" | "game">("all");
   const [q, setQ] = useState("");
   const [view, setView] = useState<"grid" | "list">("grid");
+  const [source, setSource] = useState<Media[]>(items);
 
-  const countFor = (key: string) => items.filter((i) => i.myStatus === key).length;
+  // Guests aren't signed in, so their list lives in localStorage. Load it here
+  // so "Add to list" actually shows up; fall back to the demo when it's empty.
+  useEffect(() => {
+    if (!guest) { setSource(items); return; }
+    try {
+      const list: Media[] = JSON.parse(localStorage.getItem("senkai:list") || "[]");
+      const st = JSON.parse(localStorage.getItem("senkai:status") || "{}");
+      const rt = JSON.parse(localStorage.getItem("senkai:ratings") || "{}");
+      const mine = list.map((m) => ({
+        ...m,
+        myStatus: st[String(m.id)] || "Planning",
+        myRating: rt[String(m.id)] || 0,
+        personal: true,
+      }));
+      setSource(mine.length ? mine : items);
+    } catch { setSource(items); }
+  }, [guest, items]);
+
+  const catOf = (m: Media) =>
+    m.category === "movie" || m.category === "series" ? "cine" : m.category === "game" ? "game" : "anime";
+
+  const catCounts = useMemo(
+    () => ({
+      all: source.length,
+      anime: source.filter((m) => catOf(m) === "anime").length,
+      cine: source.filter((m) => catOf(m) === "cine").length,
+      game: source.filter((m) => catOf(m) === "game").length,
+    }),
+    [source],
+  );
+
+  const byCat = useMemo(() => (cat === "all" ? source : source.filter((m) => catOf(m) === cat)), [source, cat]);
+
+  const liveStats: Stats = useMemo(() => {
+    if (!guest) return stats;
+    const by = (s: string) => source.filter((m) => m.myStatus === s).length;
+    const eps = source.reduce((n, m) => n + (m.myStatus === "Completed" ? m.episodes || 0 : 0), 0);
+    const rated = source.filter((m) => (m.myRating ?? 0) > 0);
+    const mean = rated.length ? (rated.reduce((s, m) => s + (m.myRating || 0), 0) / rated.length).toFixed(1) : "0.0";
+    return {
+      total: source.length, completed: by("Completed"), planning: by("Planning"),
+      watching: by("Watching"), dropped: by("Dropped"), episodesWatched: eps,
+      meanScore: mean, daysWatched: Math.round(((eps * 23) / 60 / 24) * 10) / 10,
+    };
+  }, [guest, source, stats]);
+
+  const CATS: { key: typeof cat; label: string }[] = [
+    { key: "all", label: "All" },
+    { key: "anime", label: "Anime" },
+    { key: "cine", label: "Movies & Series" },
+    { key: "game", label: "Games" },
+  ];
+
+  const countFor = (key: string) => byCat.filter((i) => i.myStatus === key).length;
 
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
-    return term ? items.filter((m) => m.title.toLowerCase().includes(term)) : items;
-  }, [items, q]);
+    return term ? byCat.filter((m) => m.title.toLowerCase().includes(term)) : byCat;
+  }, [byCat, q]);
 
   const sections = STATUSES
     .filter((s) => active === "all" || active === s.key)
@@ -242,7 +297,7 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
         <div className="grid h-16 w-16 shrink-0 place-items-center rounded-full brand-gradient text-2xl font-black uppercase text-white shadow-glow">{name.charAt(0)}</div>
         <div>
           <h1 className="text-2xl font-black capitalize sm:text-3xl">{name}</h1>
-          <p className="text-sm text-ink-faint">Personal library · {stats.meanScore} avg · {stats.daysWatched} days</p>
+          <p className="text-sm text-ink-faint">Personal library · {liveStats.meanScore} avg · {liveStats.daysWatched} days</p>
         </div>
       </div>
 
@@ -256,9 +311,26 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
         </div>
       )}
 
-      {/* status pills */}
+      {/* category tabs */}
       <div className="hide-scrollbar mt-5 flex gap-2 overflow-x-auto pb-1">
-        <button onClick={() => setActive("all")} className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition ${active === "all" ? "brand-gradient text-white" : "panel text-ink-muted hover:text-white"}`}>All {items.length}</button>
+        {CATS.map((c) => {
+          const n = catCounts[c.key];
+          if (c.key !== "all" && n === 0) return null;
+          return (
+            <button
+              key={c.key}
+              onClick={() => { setCat(c.key); setActive("all"); }}
+              className={`shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-bold transition ${cat === c.key ? "brand-gradient text-white shadow-glow" : "panel-strong text-ink-muted hover:text-white"}`}
+            >
+              {c.label} <span className="opacity-70">{n}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* status pills */}
+      <div className="hide-scrollbar mt-3 flex gap-2 overflow-x-auto pb-1">
+        <button onClick={() => setActive("all")} className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition ${active === "all" ? "brand-gradient text-white" : "panel text-ink-muted hover:text-white"}`}>All {byCat.length}</button>
         {STATUSES.map((s) => {
           const c = countFor(s.key);
           if (c === 0) return null;
@@ -295,17 +367,17 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
 
         {/* sidebar */}
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
-          <ScoresPanel items={items} />
-          <AchievementsPanel stats={stats} items={items} />
+          <ScoresPanel items={source} />
+          <AchievementsPanel stats={liveStats} items={source} />
 
           <div className="rounded-2xl panel p-4">
             <p className="mb-3 text-xs font-bold uppercase tracking-wide text-ink-muted">Overview</p>
             <div className="grid grid-cols-2 gap-3">
               {[
-                ["Titles", stats.total],
-                ["Mean score", stats.meanScore],
-                ["Days watched", stats.daysWatched],
-                ["Episodes", stats.episodesWatched.toLocaleString()],
+                ["Titles", liveStats.total],
+                ["Mean score", liveStats.meanScore],
+                ["Days watched", liveStats.daysWatched],
+                ["Episodes", liveStats.episodesWatched.toLocaleString()],
               ].map(([l, v]) => (
                 <div key={l}>
                   <p className="text-xl font-black">{v}</p>
