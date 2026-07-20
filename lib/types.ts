@@ -1,4 +1,4 @@
-export type MediaCategory = "anime" | "game";
+export type MediaCategory = "anime" | "game" | "movie" | "series";
 
 export interface Media {
   id: number;
@@ -61,12 +61,16 @@ export interface MediaDetail extends Media {
 /** Route href for any media (personal list items resolve by MAL id). */
 export function mediaHref(m: Media): string {
   if (m.category === "game") return `/game/${m.slug ?? m.id}`;
+  if (m.category === "movie") return `/movies/${m.slug ?? m.id}`;
+  if (m.category === "series") return `/series/${m.slug ?? m.id}`;
   if (m.personal && m.idMal) return `/title/m${m.idMal}`;
   return `/title/${m.id}`;
 }
 
 /** Stable library key for a title (client-safe — no server imports). */
-export function entryKey(m: Pick<Media, "id" | "idMal" | "category">): string {
+export function entryKey(m: Pick<Media, "id" | "idMal" | "category" | "slug">): string {
   if (m.category === "game") return `g${m.id}`;
+  if (m.category === "movie") return `mv${m.slug ?? m.id}`;
+  if (m.category === "series") return `sr${m.slug ?? m.id}`;
   return m.idMal ? `m${m.idMal}` : `a${m.id}`;
 }

@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "img.youtube.com" },
       { protocol: "https", hostname: "i.ytimg.com" },
       { protocol: "https", hostname: "media.rawg.io" },
+      { protocol: "https", hostname: "images.metahub.space" },
     ],
   },
 };
