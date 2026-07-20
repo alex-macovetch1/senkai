@@ -8,9 +8,10 @@ import {
   getPopular,
   getTopRated,
   getAiring,
-  getMovies,
   getByGenre,
 } from "@/lib/anilist";
+import { getTopMovies, getTopSeries } from "@/lib/cinemeta";
+import { getPopularGames } from "@/lib/rawg";
 import { continueWatching, topRatedByMe, planned } from "@/lib/mylist";
 import { mediaHref } from "@/lib/types";
 import { Mark, Star, ArrowRight } from "@/components/icons";
@@ -25,11 +26,14 @@ export default async function Home() {
   const airing = await getAiring();
   const popular = await getPopular();
   const topRated = await getTopRated();
-  const movies = await getMovies();
   const action = await getByGenre("Action");
   const romance = await getByGenre("Romance");
   const fantasy = await getByGenre("Fantasy");
   const scifi = await getByGenre("Sci-Fi");
+  // other categories — different hosts, so no AniList rate-limit concern
+  const topMovies = await getTopMovies();
+  const topSeries = await getTopSeries();
+  const games = await getPopularGames();
 
   const spotlight = topRated.find((m) => m.banner) || trending.find((m) => m.banner);
 
@@ -56,7 +60,9 @@ export default async function Home() {
           <MediaRow title="Continue Watching" subtitle="Pick up where you left off" items={continueWatching} href="/my-list" />
         )}
 
-        <MediaRow title="Trending Now" subtitle="What everyone is watching" items={trending} href="/browse?sort=TRENDING_DESC" />
+        <MediaRow title="Trending Anime" subtitle="What everyone is watching" items={trending} href="/browse?sort=TRENDING_DESC" />
+
+        <MediaRow title="Top Movies" subtitle="Films worth your night" items={topMovies} href="/movies" />
 
         <MediaRow title="Airing This Season" items={airing} href="/browse?sort=POPULARITY_DESC&status=RELEASING" />
 
@@ -67,10 +73,14 @@ export default async function Home() {
         {/* spotlight band */}
         {spotlight && <Spotlight />}
 
-        <MediaRow title="All-Time Popular" items={popular} href="/browse?sort=POPULARITY_DESC" />
-        <MediaRow title="Top Rated of All Time" items={topRated} href="/browse?sort=SCORE_DESC" />
+        <MediaRow title="Popular Series" subtitle="Binge-worthy shows" items={topSeries} href="/series" />
+
+        <MediaRow title="Popular Anime" items={popular} href="/browse?sort=POPULARITY_DESC" />
+
+        <MediaRow title="Popular Games" subtitle="What everyone is playing" items={games} href="/games" />
+
+        <MediaRow title="Top Rated Anime" items={topRated} href="/browse?sort=SCORE_DESC" />
         <MediaRow title="Action & Adrenaline" items={action} href="/browse?genre=Action" />
-        <MediaRow title="Anime Movies" items={movies} href="/browse?format=MOVIE" />
         <MediaRow title="Romance Picks" items={romance} href="/browse?genre=Romance" />
 
         {planned.length > 0 && (
