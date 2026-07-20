@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Media } from "@/lib/types";
 import { mediaHref } from "@/lib/types";
+import { Trophy, Film, Flame, Clock, Hourglass, Star, ChartBar } from "@/components/icons";
 
 interface Stats {
   total: number;
@@ -161,6 +162,59 @@ function ScoresPanel({ items }: { items: Media[] }) {
   );
 }
 
+function AchievementsPanel({ stats, items }: { stats: Stats; items: Media[] }) {
+  const rated = items.filter((m) => (m.myRating ?? 0) > 0).length;
+  const days = Math.floor(stats.daysWatched);
+  const defs = [
+    { Icon: Trophy, title: "Getting Started", desc: "Complete your first title", cur: stats.completed, target: 1 },
+    { Icon: Film, title: "Century Club", desc: "Complete 100 titles", cur: stats.completed, target: 100 },
+    { Icon: Flame, title: "Unstoppable", desc: "Complete 250 titles", cur: stats.completed, target: 250 },
+    { Icon: Star, title: "Critic", desc: "Rate 100 titles", cur: rated, target: 100 },
+    { Icon: Clock, title: "Time Sink", desc: "50 days watched", cur: days, target: 50 },
+    { Icon: Hourglass, title: "No Life (respect)", desc: "100 days watched", cur: days, target: 100 },
+    { Icon: ChartBar, title: "Marathoner", desc: "5,000 episodes", cur: stats.episodesWatched, target: 5000 },
+  ];
+  const unlocked = defs.filter((a) => a.cur >= a.target).length;
+
+  return (
+    <div className="rounded-2xl panel p-4">
+      <div className="mb-3 flex items-center justify-between">
+        <p className="text-xs font-bold uppercase tracking-wide text-ink-muted">Achievements</p>
+        <span className="text-[11px] font-semibold text-brand">{unlocked}/{defs.length}</span>
+      </div>
+      <div className="space-y-3">
+        {defs.map((a) => {
+          const done = a.cur >= a.target;
+          const pct = Math.min(100, (a.cur / a.target) * 100);
+          return (
+            <div key={a.title} className="flex items-center gap-3">
+              <div className={`grid h-9 w-9 shrink-0 place-items-center rounded-xl ${done ? "brand-gradient text-white shadow-glow" : "bg-white/5 text-ink-faint"}`}>
+                <a.Icon size={16} />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center justify-between gap-2">
+                  <p className={`truncate text-sm font-semibold ${done ? "text-white" : "text-ink-muted"}`}>{a.title}</p>
+                  {done ? (
+                    <span className="shrink-0 text-[10px] font-bold uppercase tracking-wide text-brand">Unlocked</span>
+                  ) : (
+                    <span className="shrink-0 text-[10px] tabular-nums text-ink-faint">{Math.min(a.cur, a.target)}/{a.target}</span>
+                  )}
+                </div>
+                <p className="truncate text-[11px] text-ink-faint">{a.desc}</p>
+                {!done && (
+                  <div className="mt-1.5 h-1 overflow-hidden rounded-full bg-white/5">
+                    <div className="h-full rounded-full brand-gradient" style={{ width: `${pct}%` }} />
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 export default function MyListClient({ items, stats, name, guest = false }: { items: Media[]; stats: Stats; name: string; guest?: boolean }) {
   const [active, setActive] = useState("all");
   const [q, setQ] = useState("");
@@ -242,6 +296,7 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
         {/* sidebar */}
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
           <ScoresPanel items={items} />
+          <AchievementsPanel stats={stats} items={items} />
 
           <div className="rounded-2xl panel p-4">
             <p className="mb-3 text-xs font-bold uppercase tracking-wide text-ink-muted">Overview</p>
