@@ -1,0 +1,4122 @@
+{
+ "app": "Senkai",
+ "version": 1,
+ "source": "shikimori",
+ "count": 242,
+ "items": [
+  {
+   "title": "Пять невест",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38101,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103572-cchriAdH95cQ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103572-qRtBguYOOR2j.jpg"
+  },
+  {
+   "title": "Пять невест 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 39783,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109261-65rKxMDlcU9r.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109261-UfxQjnmmfAOp.jpg"
+  },
+  {
+   "title": "Пять невест. Фильм",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48548,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131520-89Qfo8JnGHI3.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131520-0zIxc7ANJThw.jpg"
+  },
+  {
+   "title": "Убийца Акамэ!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 22199,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 6,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 7.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20613-HXHpec4bemk5.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20613-CoEQF4qKiWDX.jpg"
+  },
+  {
+   "title": "Бакуман",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 7674,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7674-J0QHrtN50kzj.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7674-MRQY8iwj5cEP.jpg"
+  },
+  {
+   "title": "Бакуман 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 10030,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10030-EsnaZOM25Jcc.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10030-QiRMSckmsboa.jpg"
+  },
+  {
+   "title": "Бакуман 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 12365,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12365-G5nFzWm2mIwz.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12365-icejvUdmnD8D.jpg"
+  },
+  {
+   "title": "Чёрный клевер",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 34572,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 170,
+   "episodes": 170,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97940-fyh8o7gNbha0.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97940-1URQdQ4U1a0b.jpg"
+  },
+  {
+   "title": "Блич",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 269,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 366,
+   "episodes": 366,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-d2GmRkJbMopq.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/269-08ar2HJOUAuL.jpg"
+  },
+  {
+   "title": "Синяя тюрьма: Блю Лок",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 49596,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-U8naszP96vzC.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137822-oevspckMGLuY.jpg"
+  },
+  {
+   "title": "Синяя тюрьма: Блю Лок против юношеской сборной Японии",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54865,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 5,
+   "epWatched": 14,
+   "episodes": 14,
+   "score": 7.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163146-BVZPgyzkqi82.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163146-HIz04v1Or7He.jpg"
+  },
+  {
+   "title": "Город, в котором меня нет",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 31043,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21234-XmqW39aQ9o7O.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21234-7lfSSPoMmwr2.jpg"
+  },
+  {
+   "title": "Человек-бензопила",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 44511,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127230-o8IRwCGVr9KW.jpg"
+  },
+  {
+   "title": "Киберпанк: Бегущие по краю",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 42310,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 10,
+   "episodes": 10,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120377-c15oLS8CA31s.jpg"
+  },
+  {
+   "title": "Тетрадь смерти",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1535,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 37,
+   "episodes": 37,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg"
+  },
+  {
+   "title": "Дороро",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37520,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101347-TGaDwEYqLfm1.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101347-tHurKfTlhtFl.jpg"
+  },
+  {
+   "title": "Пламенная бригада пожарных",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38671,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105310-2PKUvoaA6fTn.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105310-ygGL9yweZM2Q.jpg"
+  },
+  {
+   "title": "Пламенная бригада пожарных: Вторая глава",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40956,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114236-wfQOWF0Ii3h2.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114236-6nbw38bHeXYQ.jpg"
+  },
+  {
+   "title": "Стальной алхимик: Братство",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 5114,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 64,
+   "episodes": 64,
+   "score": 9.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg"
+  },
+  {
+   "title": "Необъятный океан",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37105,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100922-uxEhaCsqMMp3.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100922-ef1bBJCUCfxk.jpg"
+  },
+  {
+   "title": "Крутой учитель Онидзука",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 245,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 43,
+   "episodes": 43,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx245-NcQAyTipUMeO.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/245-sIPMF9vNDnaJ.jpg"
+  },
+  {
+   "title": "Волейбол!!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 20583,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20464-ooZUyBe4ptp9.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20464-PpYjO9cPN1gs.jpg"
+  },
+  {
+   "title": "Волейбол!! 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 28891,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20992-aHgNbcalVEqk.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20992-QMdqxEjAIAit.jpg"
+  },
+  {
+   "title": "Волейбол!! К вершине",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38883,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106625-UR22wB2NuNVi.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106625-wab2Mx4NQqPQ.jpg"
+  },
+  {
+   "title": "Волейбол!! К вершине 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40776,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113538-tHVE8j5mOPLu.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113538-YAcNXzT07eWR.jpg"
+  },
+  {
+   "title": "Первый шаг",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 263,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 75,
+   "episodes": 75,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx263-ivVyn9xAgwSZ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/263-8Zejtdb3r2bI.jpg"
+  },
+  {
+   "title": "Первый шаг: Новый вызов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 5258,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 26,
+   "episodes": 26,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5258-Qn6GBiSY57iT.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5258-sVUejsZEekdD.jpg"
+  },
+  {
+   "title": "Первый шаг: Восхождение",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 19647,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19647-cIy7ShTL6e9h.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19647-yJfiQb4GchCg.jpg"
+  },
+  {
+   "title": "Охотник х Охотник (2011)",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 11061,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 148,
+   "episodes": 148,
+   "score": 8.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 14719,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 26,
+   "episodes": 26,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14719-VT5dRzTBSZ0w.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14719-m7Hv2AxcNNjM.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Рыцари звёздной пыли",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 20899,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20474-xuqem5GBlBtb.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20474-peBLuUVAzNC3.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Рыцари звёздной пыли 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 26055,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20799-S1eyqBDlx51E.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20799-Fc9I1XG4TWtJ.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Несокрушимый алмаз",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 31933,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 39,
+   "episodes": 39,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21450-D7XFwEQjZ5GA.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21450-5mgIkvOWnF9Z.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Золотой ветер",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37991,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 39,
+   "episodes": 39,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102883-S9KzdMJhDswJ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102883-8ffuBLnY5vNR.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Каменный океан",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48661,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 5,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131942-rermlZ9lplHX.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131942-qRGh8f8t2kMl.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Каменный океан. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51367,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 5,
+   "epWatched": 26,
+   "episodes": 26,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146722-hiZU7M33fBhn.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146722-nfTe0Exka4d5.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Каменный океан. Часть 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53273,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 5,
+   "epWatched": 14,
+   "episodes": 14,
+   "score": null,
+   "poster": null,
+   "banner": null
+  },
+  {
+   "title": "Магическая битва",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40748,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg"
+  },
+  {
+   "title": "Магическая битва 0. Фильм",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48561,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131573-rpl82vDEDRm6.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131573-3veuVz5p0z2I.jpg"
+  },
+  {
+   "title": "Магическая битва 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51009,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 23,
+   "episodes": 23,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145064-hSNRJM03pvv1.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145064-esDtAY2He7sk.jpg"
+  },
+  {
+   "title": "Благоухающий цветок расцветает с достоинством",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 59845,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181444-Ut9DDUZdfHwg.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/181444-SBhwJNPxjHrr.jpg"
+  },
+  {
+   "title": "Почувствуй ветер",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37965,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 23,
+   "episodes": 23,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101903-ncgPJbbA5Nou.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101903-Jnoc7x0WFusx.jpg"
+  },
+  {
+   "title": "Берсерк",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 33,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx33-PSwfE5B0gejI.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/33-g7HwYRVm0ZkN.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38000,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 26,
+   "episodes": 26,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-33MtJGsUSxga.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов: Бесконечный поезд. Фильм",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40456,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112151-1qlQwPB1RrJe.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112151-eHCBz19nf2yC.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов: Деревня кузнецов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51019,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145139-rRimpHGWLhym.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145139-V01Prh6UzfRk.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов: Квартал красных фонарей",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 47778,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142329-kET1PIXJv2eW.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142329-i413SzLmToZN.jpg"
+  },
+  {
+   "title": "Сто девушек, которые очень-очень-очень-очень-очень сильно тебя любят",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54714,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 6,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162694-QFBei5pbjSh8.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162694-PzaToQuFdpsr.jpg"
+  },
+  {
+   "title": "Твоё имя",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32281,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg"
+  },
+  {
+   "title": "Паразит: Учение о жизни",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 22535,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20623-dUARfggnNDOe.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20623-xb9PPf8rGOsG.jpg"
+  },
+  {
+   "title": "Форма голоса",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 28851,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg"
+  },
+  {
+   "title": "Этот замечательный мир!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 30831,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 10,
+   "episodes": 10,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21202-mPOr80AEjUcZ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21202-UWijdV7RMnXo.jpg"
+  },
+  {
+   "title": "Сад изящных слов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 16782,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16782-qpFGk18UqaHn.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16782.jpg"
+  },
+  {
+   "title": "Баскетбол Куроко",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 11771,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11771-uvr44RAwRxPw.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11771-Bjm9Q0ow0nEh.jpg"
+  },
+  {
+   "title": "Моб Психо 100",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32182,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-6YUSbh2m0N1p.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21507-Qx8bGsLXUgLo.jpg"
+  },
+  {
+   "title": "Моб Психо 100 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37510,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101338-rokVscjRYzdP.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101338-Rl54Qhx71dUq.jpg"
+  },
+  {
+   "title": "Моб Психо 100 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50172,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140439-bPKmhe1wNxc9.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140439-r9SRh0q0UgX1.jpg"
+  },
+  {
+   "title": "Реинкарнация безработного: История о приключениях в другом мире",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 39535,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108465-RgsRpTMhP9Sv.jpg"
+  },
+  {
+   "title": "Реинкарнация безработного: История о приключениях в другом мире. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 45576,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127720-ADJgIrUVMdU9.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127720-oBpHiMWQhFVN.jpg"
+  },
+  {
+   "title": "Наруто",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 20,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 220,
+   "episodes": 220,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-dE6UHbFFg1A5.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg"
+  },
+  {
+   "title": "Наруто: Ураганные хроники",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1735,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 500,
+   "episodes": 500,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-kGfVm0YqCPcu.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1735.jpg"
+  },
+  {
+   "title": "Ван-Пис",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 21,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 9,
+   "epWatched": 1157,
+   "episodes": 1157,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg"
+  },
+  {
+   "title": "Ван-Пис: Письмо от поклонника",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 60022,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 9.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182469-JQ808NBPxmgn.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182469-obNr7bznMzN7.jpg"
+  },
+  {
+   "title": "Ванпанчмен",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 30276,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg"
+  },
+  {
+   "title": "Ванпанчмен 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 34134,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97668-nC8gQrXVxt7k.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97668-8Yo3iH2fxbKR.jpg"
+  },
+  {
+   "title": "Поднятие уровня в одиночку",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52299,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151807-37yfQA3ym8PA.jpg"
+  },
+  {
+   "title": "Поднятие уровня в одиночку 2: Восстаньте из тени",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 58567,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176496-9BDMjAZGEbq4.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176496-5oY4k2NRqlYs.jpg"
+  },
+  {
+   "title": "Школа-тюрьма",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 30240,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20807-8nFoO0AUdGsy.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20807-IHYC4Qby3dkT.jpg"
+  },
+  {
+   "title": "Этот глупый свин не понимает мечту девочки-зайки",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37450,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101291-wfEdgPqtfU0l.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101291-fqIUvQ6apEtD.jpg"
+  },
+  {
+   "title": "Этот глупый свин не понимает мечту девочки-мечтательницы",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38329,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104157-rk99XI56PaIC.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104157-PS7tfPpvJKhk.jpg"
+  },
+  {
+   "title": "Унесённые призраками",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 199,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199-Sm2RU5PSqw7T.jpg"
+  },
+  {
+   "title": "Твоя апрельская ложь",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 23273,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 22,
+   "episodes": 22,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20665-TLgkL8T8IRFd.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20665-j4kSsfhfkM24.jpg"
+  },
+  {
+   "title": "Атака титанов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 16498,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg"
+  },
+  {
+   "title": "Атака титанов 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 25777,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20958-HuFJyr54Mmir.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20958-Y7eQdz9VENBD.jpg"
+  },
+  {
+   "title": "Атака титанов 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 35760,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99147-AiPDD8cwlCfi.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99147-HACsFVrynFf5.jpg"
+  },
+  {
+   "title": "Атака титанов 3. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38524,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 10,
+   "episodes": 10,
+   "score": 9.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104578-k61nx3LPjvgd.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104578-z7SadpYEuAsy.jpg"
+  },
+  {
+   "title": "Атака титанов: Финал",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40028,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 16,
+   "episodes": 16,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-sKUNXAsWMNFw.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110277-iuGn6F5bK1U1.jpg"
+  },
+  {
+   "title": "Атака титанов: Финал — Заключительная глава",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51535,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146984-GXrLeT6vQqyP.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146984-yAkTtW2AExVj.jpg"
+  },
+  {
+   "title": "Атака титанов: Финал. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48583,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131681-5ooUqvqNtee1.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131681-3tNurPRsqsfz.jpg"
+  },
+  {
+   "title": "Евангелион нового поколения",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 30,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 26,
+   "episodes": 26,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx30-AI1zr74Dh4ye.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/30-gEMoHHIqxDgN.jpg"
+  },
+  {
+   "title": "Повар-боец Сома",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 28171,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20923-pNT38pjW3RFH.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20923-9tFdZ5hIrRiF.png"
+  },
+  {
+   "title": "Повар-боец Сома: Второе блюдо",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32282,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21518-uBqzDGIuSxJ5.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21518-kKwYXPaFO9JL.jpg"
+  },
+  {
+   "title": "Повар-боец Сома: Третье блюдо",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 35788,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99255-heGTtj5b4owl.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99255-FcvNIg6FLK4o.jpg"
+  },
+  {
+   "title": "Повар-боец Сома: Третье блюдо — Часть II",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 36949,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100773-KLx4vR0TiC5o.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100773-VB3awsuL4K34.jpg"
+  },
+  {
+   "title": "Эта фарфоровая кукла влюбилась",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48736,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132405-qP7FQYGmNI3d.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132405-LnPQaqaksEpN.jpg"
+  },
+  {
+   "title": "Семья шпиона",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50265,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140960-Z7xSvkRxHKfj.jpg"
+  },
+  {
+   "title": "Семья шпиона. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50602,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142838-26JrqcFU1ljB.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142838-tynuN00wxmKO.jpg"
+  },
+  {
+   "title": "Мастера Меча Онлайн",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 11757,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 7.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11757-SxYDUzdr9rh2.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg"
+  },
+  {
+   "title": "Токийский гуль",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 22319,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20605-k665mVkSug8D.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg"
+  },
+  {
+   "title": "Торадора!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 4224,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4224-PXVMBLNwy2aF.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4224-iPUOHdMde27j.jpg"
+  },
+  {
+   "title": "Сага о Винланде",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37521,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-2fhDFPCuMNiz.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg"
+  },
+  {
+   "title": "Обещанный Неверленд",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37779,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101759-8UR7r9MNVpz2.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101759-MhlCoeqnODso.jpg"
+  },
+  {
+   "title": "Добро пожаловать в класс превосходства",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 35507,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98659-WNyPLIZDpGGY.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98659-u46B5RCNl9il.jpg"
+  },
+  {
+   "title": "Добро пожаловать в класс превосходства 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51096,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145545-DGl3LVvFlnHi.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145545-XeHhS7dJJLlj.jpg"
+  },
+  {
+   "title": "Эхо террора",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 23283,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20661-aCR7QgzDfOSI.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20661-JwMKrCzeSTZ7.png"
+  },
+  {
+   "title": "Первородный грех Такопи",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 60489,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 6,
+   "episodes": 6,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185407-7uzY4fA3hokP.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185407-WOKgyadY4Pr1.jpg"
+  },
+  {
+   "title": "Сага о Винланде 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 49387,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136430-gsBsJjA7hGh9.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136430-ktoFZnyubhHg.jpg"
+  },
+  {
+   "title": "Волейбол!! 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32935,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 10,
+   "episodes": 10,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21698-RL71mr1YU5Io.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21698-jVFRIHAENS5B.jpg"
+  },
+  {
+   "title": "Одинокий рокер!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 47917,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-HTDmeL4RGeJ4.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130003-5F90a7BtsPQN.jpg"
+  },
+  {
+   "title": "Созданный в Бездне",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 34599,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97986-TQ7dCgbS3y5s.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97986-C55UnbJKB7ZF.jpg"
+  },
+  {
+   "title": "Оглянись",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 58125,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174788-9LsUnn0oEppv.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174788-0ZM9g7npJH8X.jpg"
+  },
+  {
+   "title": "Созданный в Бездне: Блуждающие сумерки",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37515,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101344-NbEG3Ryria9S.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101344-NnrAu0hmD2T5.jpg"
+  },
+  {
+   "title": "Созданный в Бездне: Начало путешествия",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 37514,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101343-E9fMMi4b8fsL.png",
+   "banner": null
+  },
+  {
+   "title": "Волейбол!! Решающая игра на свалке",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52742,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153658-KVnjW77cQw3y.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153658-7MePQPgSHrH1.jpg"
+  },
+  {
+   "title": "Слэм-данк",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 170,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 101,
+   "episodes": 101,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170-cmD8A0vZsp6g.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170-hCgzytQLmZdX.jpg"
+  },
+  {
+   "title": "Дандадан",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 57334,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171018-SpwPNAduszXl.jpg"
+  },
+  {
+   "title": "Дитя погоды",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38826,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106286-5COcpd0J9VbL.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106286-3oKwiwjd7Wkm.jpg"
+  },
+  {
+   "title": "Этот замечательный мир! 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32937,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 10,
+   "episodes": 10,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21699-Fkbnkl9ZC6fW.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21699-1PwL1P4i61wP.jpg"
+  },
+  {
+   "title": "Судзумэ, закрывающая двери",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50594,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142770-dDaDIRnsv5jN.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142770-YgESt2HJXlNg.jpg"
+  },
+  {
+   "title": "Реинкарнация безработного: История о приключениях в другом мире 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51179,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146065-IjirxRK26O03.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146065-33RDijfuxLLk.jpg"
+  },
+  {
+   "title": "Баскетбол Куроко 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 16894,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16894-iXt8GDs1L6dr.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16894-L8kzeV6tFSII.jpg"
+  },
+  {
+   "title": "Голубая шкатулка",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 57181,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 25,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170942-KKcLfQzV57nG.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170942-v2GO5YNO0Q5I.jpg"
+  },
+  {
+   "title": "Адский рай",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 46569,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128893-Gc2t8b8M0mVu.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128893-pAA7PjY8l7dy.jpg"
+  },
+  {
+   "title": "Семья шпиона 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53887,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b158927-lfO85WVguYgc.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/158927-zXtbXUO5iKzX.jpg"
+  },
+  {
+   "title": "Ван-Пис: Жестокий мир",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 4155,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4155-P5TDf6t6qFwX.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4155-2PkLjTHddz2s.jpg"
+  },
+  {
+   "title": "Воспоминания о Марни",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 21557,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 1,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20555-QGbWQC3Kfpok.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20555-pJTKZKw8vDe8.jpg"
+  },
+  {
+   "title": "Межвидовые рецензенты",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40010,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110270-4NVRRcffK70k.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110270-NIVO37S631oB.jpg"
+  },
+  {
+   "title": "Моя геройская академия",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 31964,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg"
+  },
+  {
+   "title": "Добро пожаловать в класс превосходства 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51180,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146066-zzKl6P6OeEjy.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146066-gxjPUB1ofAO4.jpg"
+  },
+  {
+   "title": "Тоннель в лето, выход прощаний",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50593,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142769-kNyyqpwC9gGV.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142769-WCECHopEFbE2.jpg"
+  },
+  {
+   "title": "Бездомный бог",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 20507,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 4,
+   "episodes": 12,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20447-EoQXeygHaVCK.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20447-nlgQQzcgWbgw.jpg"
+  },
+  {
+   "title": "Ван-Пис: Красный",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50410,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141902-fTyoTk8F8qOl.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141902-SvnRSXnN7DWC.jpg"
+  },
+  {
+   "title": "Наруто: Последний фильм",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 16870,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16870-BD4K9rzlhCP4.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16870-xz6KbaGC0jas.jpg"
+  },
+  {
+   "title": "Магия и мускулы: Экзамен на звание Вестника Бога",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 55813,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166610-S5q7V2v5zdDK.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166610-2gA4Vv20MVhv.jpg"
+  },
+  {
+   "title": "Повар-боец Сома: Четвёртое блюдо",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 39940,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109963-t8E9axH0Dvrn.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109963-hB2vzg1LhxkB.jpg"
+  },
+  {
+   "title": "Магическая битва 2: Рекапы",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 56243,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 2,
+   "score": null,
+   "poster": null,
+   "banner": null
+  },
+  {
+   "title": "Наруто: Ураганные хроники 6 — Путь ниндзя",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 13667,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13667-gAKuIXI2avRq.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13667-7Cpxg5sCOVpw.jpg"
+  },
+  {
+   "title": "Кулинарные скитания в параллельном мире",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53446,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156067-Jovklss4VWIx.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156067-Fy111KTt2uTr.jpg"
+  },
+  {
+   "title": "Реинкарнация безработного: История о приключениях в другом мире 2 — Маг-хранитель Фитц",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 55818,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": null,
+   "poster": null,
+   "banner": null
+  },
+  {
+   "title": "Наруто: Ураганные хроники 5 — Кровавая тюрьма",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 10589,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10589-VhXWWMm24Dso.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10589-s5r2dzqohuU7.jpg"
+  },
+  {
+   "title": "Ходячий замок",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 431,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx431-o8Lj3XkjHm2k.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/431-fLBlvTgdqLCz.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов: Тренировка столпов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 55701,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 8,
+   "episodes": 8,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-PBV7zukIHW7V.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166240-YdxoEhrfwNk0.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов: Бесконечный поезд",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 49926,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 7,
+   "episodes": 7,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129874-g6ZKXB94Hui1.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129874-3ipZzS50i9Ta.jpg"
+  },
+  {
+   "title": "Доктор Стоун",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38691,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105333-GybuoSoOZfpH.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105333-KWKGvBM8Hyga.jpg"
+  },
+  {
+   "title": "Хоримия",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 42897,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124080-3i22mRVPBS0T.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124080-ARyLAHHgikRq.jpg"
+  },
+  {
+   "title": "Созданный в Бездне: Рассвет глубокой души",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 36862,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100643-fPH9OgEKKvcI.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100643-9cSyQS0R5u0o.jpg"
+  },
+  {
+   "title": "Синяя тюрьма: Блю Лок — Эпизод с Наги",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54866,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163147-yyu5aEoO96Jg.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163147-V6c9XjfvGE0M.jpg"
+  },
+  {
+   "title": "Магическая битва: Смертельная миграция",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 57658,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx172463-LnXqHzt74SJL.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/172463-3J2o3qQZadFJ.jpg"
+  },
+  {
+   "title": "Реинкарнация безработного: История о приключениях в другом мире 2. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 55888,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166873-xO0BRPkmwFll.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166873-GTi5imE5skM2.jpg"
+  },
+  {
+   "title": "Этот глупый свин не понимает мечту сестры на прогулке",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53129,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154967-W9cIm0qlz6fj.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154967-uUEtnP9NOTGu.jpg"
+  },
+  {
+   "title": "Этот глупый свин не понимает мечту девушки с рюкзаком",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54870,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161474-ZDfmmlJQQngN.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/161474-QHw3Y93gLwkE.jpg"
+  },
+  {
+   "title": "Повар-боец Сома: Пятое блюдо",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40902,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 7.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114043-QkgiycojrojN.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114043-5RRtoLPrzQ0P.jpg"
+  },
+  {
+   "title": "Игра друзей",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50273,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141014-bTWr7TtS0wt9.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141014-ocrpDt7M8EfY.jpg"
+  },
+  {
+   "title": "Предсмертный список зомби",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54112,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159831-cJUNqCqzuApc.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/159831-FWfdyqpxhLli.jpg"
+  },
+  {
+   "title": "Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 41084,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114745-fBgTC12T7IAy.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114745-945IZS3qnjK4.jpg"
+  },
+  {
+   "title": "Скейт: Бесконечность",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 42923,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124153-uEBI764OSavB.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124153-tEEm1Zaoqa58.jpg"
+  },
+  {
+   "title": "Ангел по соседству",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50739,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143338-zhyDVYgEzsm5.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143338-d0AqJzRUQCgk.jpg"
+  },
+  {
+   "title": "Хоримия: Кусочек",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54856,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163132-C220CO5UrTxY.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163132-bxxTKGlmlnOm.jpg"
+  },
+  {
+   "title": "Баскетбол Куроко 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 24415,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 25,
+   "episodes": 25,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20725-DLu8VlkGFQKc.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20725-ATMoU6GgyT5G.jpg"
+  },
+  {
+   "title": "Борьба в прямом эфире",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 58080,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 6,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174653-OsnK4BuENjUT.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174653-Rq9ikE3MDb4x.jpg"
+  },
+  {
+   "title": "Кайдзю номер восемь",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52588,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153288-25FBfFJzEQ5O.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153288-JNsWuMPMAuJL.jpg"
+  },
+  {
+   "title": "Доктор Стоун: Каменные войны",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40852,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113936-D4eYd4XwslVI.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113936-PpMtCY9kCwwV.jpg"
+  },
+  {
+   "title": "Доктор Стоун: Рюсуй",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 50612,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142876-izO35hPP2DZ9.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142876-4vxyOR19TI7i.jpg"
+  },
+  {
+   "title": "Доктор Стоун: Новый мир",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48549,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131518-RU7RoUmGb2sP.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131518-uENBDjWnMHmN.jpg"
+  },
+  {
+   "title": "Доктор Стоун: Новый мир. Часть 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 55644,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162670-07XrFq2hreTx.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162670-usucQbwBz6ES.jpg"
+  },
+  {
+   "title": "Блич: Тысячелетняя кровавая война",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 41467,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116674-p3zK4PUX2Aag.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116674-l2YlIyJzvGSV.jpg"
+  },
+  {
+   "title": "Блич: Тысячелетняя кровавая война — Прощание",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53998,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159322-Sp1GflRhE6Po.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/159322-biJjvtNkhkxR.jpg"
+  },
+  {
+   "title": "Магия и мускулы",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52211,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151801-XxVf22Le6C8o.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151801-zBFaJMIJFWfS.jpg"
+  },
+  {
+   "title": "Боруто",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 28755,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21220-3cWAUtR1Ih5h.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21220-tdeNPd6YFzIo.jpg"
+  },
+  {
+   "title": "Атака титанов: Потерянные девушки",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 36106,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 3,
+   "episodes": 3,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99634-9u4hdvWwmC2s.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99634-m8hKbCnDL2ue.png"
+  },
+  {
+   "title": "В лес, где мерцают светлячки",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 10408,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10408-PlKJ6DAyvMk2.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10408-kZhXe0uVrAd2.jpg"
+  },
+  {
+   "title": "Я хочу съесть твою поджелудочную",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 36098,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99750-pNyly9d3MEgV.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99750-KPFW2Jv03b2B.jpg"
+  },
+  {
+   "title": "Пять сантиметров в секунду",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1689,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 3,
+   "episodes": 3,
+   "score": 7.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1689-rJKhjLEjQHSy.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1689.jpg"
+  },
+  {
+   "title": "Золотой парень",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 268,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 6,
+   "episodes": 6,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx268-0T6bdW9CzVvz.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/268-jNnYUyUe4vKC.jpg"
+  },
+  {
+   "title": "Рыбка Поньо на утёсе",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 2890,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2890-wcNtFr6aUYOR.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2890-9ABkcfl2a7xS.jpg"
+  },
+  {
+   "title": "Шарлотта",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 28999,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 13,
+   "episodes": 13,
+   "score": 7.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20997-axVYrsIfjtYJ.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20997-nE9VyUa08vS0.jpg"
+  },
+  {
+   "title": "Монстр",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 19,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 3,
+   "episodes": 74,
+   "score": 8.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-gtMC64182sm4.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19-kJhwsB0Z97tL.jpg"
+  },
+  {
+   "title": "Укрась прощальное утро цветами обещания",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 35851,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 1,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99457-OD0xtM8NlHNQ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99457-OvX44AF17mEL.jpg"
+  },
+  {
+   "title": "Она и её кот",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1004,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1004.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1004-ps23ewNbO4LD.jpg"
+  },
+  {
+   "title": "Чей-то взгляд",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 17121,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17121-JEuXAtZkz9Nk.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n17121-ddfQA9v0ZiDR.jpg"
+  },
+  {
+   "title": "Голос далёкой звезды",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 256,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx256-CMHbugPOGxF6.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/256-Taw6t9ouZ2rL.jpg"
+  },
+  {
+   "title": "Любовь с кончиков пальцев",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 55866,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166794-1MAXFMgND6qS.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166794-11TpGckiG12q.jpg"
+  },
+  {
+   "title": "Семья шпиона 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 59027,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 13,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177937-Tzgg6rAdhCoH.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177937-jty4x7qBWG5n.jpg"
+  },
+  {
+   "title": "Человек-бензопила: Резе",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 57555,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 9.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171627-ZN9D7P46yHnw.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171627-7esVHhgw69rn.jpg"
+  },
+  {
+   "title": "Принцесса Мононоке",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 164,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx164-ySuGzCWVw2cL.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/164-Aj6MINy7VTfs.jpg"
+  },
+  {
+   "title": "Завтрашний Джо",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 2402,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 79,
+   "episodes": 79,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2402-hbo1SbfcM5hm.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2402-SgRt5yp35i1Y.jpg"
+  },
+  {
+   "title": "Re:Zero. Жизнь с нуля в альтернативном мире",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 31240,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 25,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-wRVUrGxpvIQQ.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg"
+  },
+  {
+   "title": "Добро пожаловать в NHK",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1210,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 8,
+   "epWatched": 24,
+   "episodes": 24,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1210-2XotjcgqdcaX.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1210-3HzGH3tahHmC.jpg"
+  },
+  {
+   "title": "Патэма наоборот",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 12477,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 1,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12477-KtZm8BuvrPYo.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12477-RngQKNBGkEhp.jpg"
+  },
+  {
+   "title": "Школа мертвецов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 8074,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 12,
+   "score": 6.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8074-YB63Ik96fjPj.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8074-g8bVkL09nkdw.jpg"
+  },
+  {
+   "title": "Клинок, рассекающий демонов: Бесконечный замок — Возвращение Акадзы",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 59192,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 7,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178788-zm3gtpB9TpRt.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178788-tSHb5MiaNBNL.jpg"
+  },
+  {
+   "title": "Инуясики",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 34542,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 11,
+   "score": 7.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97922-qrGn5fkQinDs.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97922-j6ba0Zmq8xOa.jpg"
+  },
+  {
+   "title": "Атака титанов: Заключительная глава — Последняя атака",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 59571,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": null,
+   "poster": null,
+   "banner": null
+  },
+  {
+   "title": "Стометровка",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 58919,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177687-T4SrtVjrmW01.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177687-24ePtQwAUb7n.jpg"
+  },
+  {
+   "title": "Школа-тюрьма: Мастерское скольжение",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32485,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21565-PsQEFVGXs1fX.jpg",
+   "banner": null
+  },
+  {
+   "title": "Боруто: День, когда Наруто стал хокагэ",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 32365,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21579-AKxouF9BidMD.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21579-yXgNYDhYev70.jpg"
+  },
+  {
+   "title": "Наруто 1: Книга искусств ниндзя Снежной принцессы",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 442,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx442-VJbmIVTgmne3.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/442-Mi9O1QwTaXqQ.jpg"
+  },
+  {
+   "title": "Наруто: Спортивный фестиваль Конохи",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 2248,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2248.jpg",
+   "banner": null
+  },
+  {
+   "title": "Путь Наруто",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53236,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155348-4ipji8SvTjyh.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155348-I6f4TQKslVx2.jpg"
+  },
+  {
+   "title": "Наруто: Ураганные хроники — Битва с яичницей-глазуньей",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 19511,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n19511-8DIUleQ5KUgq.jpg",
+   "banner": null
+  },
+  {
+   "title": "Наруто: Найти тёмно-красный четырёхлистный клевер!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 761,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/761.jpg",
+   "banner": null
+  },
+  {
+   "title": "Наруто 2: Большое столкновение! Призрачные руины в глубине земли",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 936,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx936-P1ogcIs07UR8.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/936-q1NJoF3NDEjF.jpg"
+  },
+  {
+   "title": "Ван-Пис: Барон Омацури и Секретный Остров",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 464,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx464-g4wcZPjbhY5j.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/464-wmQoE1Ywxghs.jpg"
+  },
+  {
+   "title": "Ван-Пис: Золото — Эпизод 0",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 33606,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21880-uxsZ880LXSdY.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21880-9gGzVvnzqiNA.jpg"
+  },
+  {
+   "title": "Ван-Пис: Бегство",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38234,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105143-5uBDmhvMr6At.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105143-y8oSKa8PSsgK.jpg"
+  },
+  {
+   "title": "Ван-Пис: Z",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 12859,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12859-uQFENDPzMWz6.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12859-XjlBW6o2YwUb.jpg"
+  },
+  {
+   "title": "Ван-Пис: Золото",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 31490,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21335-XsXdE0AeOkkZ.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21335-ps20iVSGUXbD.jpg"
+  },
+  {
+   "title": "Ван-Пис: Остров мечты",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 16468,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 2,
+   "score": 6.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b16468-pMKFwfY8lYZX.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n16468-yOxhsBHFICtu.jpg"
+  },
+  {
+   "title": "Жозе, тигр и рыба",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40787,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 1,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113596-LKA0bYJGjLnB.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113596-8r3fCSFgQHIY.jpg"
+  },
+  {
+   "title": "Невероятное приключение ДжоДжо: Гонка «Стальной шар»",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 61469,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 10,
+   "epWatched": 11,
+   "episodes": 11,
+   "score": null,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210482-P1VNKbqdJ6Zj.jpg",
+   "banner": null
+  },
+  {
+   "title": "Необъятный океан 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 59986,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 12,
+   "score": 8.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182309-IfrR8sgHIczv.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182309-kvcHexJjshIV.jpg"
+  },
+  {
+   "title": "Нет игры — нет жизни",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 19815,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 12,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b19815-sEOQ9yQaPKlk.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19815-BqbuD0wyBS3P.jpg"
+  },
+  {
+   "title": "Нежить и Неудача",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52741,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 12,
+   "episodes": 24,
+   "score": 7.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154116-3ydDI9hhvPgw.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154116-dFaciqCd2pZU.jpg"
+  },
+  {
+   "title": "Аля иногда кокетничает со мной по-русски",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54744,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 4,
+   "episodes": 12,
+   "score": 7.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162804-TBeptcAfvqTd.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162804-NwvD3Lya8IZp.jpg"
+  },
+  {
+   "title": "Провожающая в последний путь Фрирен",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52991,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 20,
+   "episodes": 28,
+   "score": 9.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg"
+  },
+  {
+   "title": "Вайолет Эвергарден",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 33352,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 13,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21827-ubzq619ZA2E9.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21827-ROucgYiiiSpR.jpg"
+  },
+  {
+   "title": "Восхождение в тени!",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 48316,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 6,
+   "episodes": 20,
+   "score": 8.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130298-YMdcKHytpWNH.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130298-9yxFlFvKMwRk.jpg"
+  },
+  {
+   "title": "Врата Штейна",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 9253,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 3,
+   "episodes": 24,
+   "score": 8.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg"
+  },
+  {
+   "title": "Монолог фармацевта",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54492,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 15,
+   "episodes": 24,
+   "score": 8.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161645-QLbzHXiYRgV2.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/161645-oqzTZYIvviWI.jpg"
+  },
+  {
+   "title": "Рон Камонохаси: Невменяемый детектив",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53879,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 11,
+   "episodes": 13,
+   "score": 7.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158926-u3Sb0d0jagoI.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/158926-6t6YLlgrFM2f.jpg"
+  },
+  {
+   "title": "Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52347,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 3,
+   "episodes": 25,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151970-xtIx3VqEk02X.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151970-Tnnfp0f7NOzj.jpg"
+  },
+  {
+   "title": "Летнее время",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 47194,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 25,
+   "score": 8.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129201-HJBauga2be8I.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129201-eeCsKFrCSQPS.jpg"
+  },
+  {
+   "title": "Подземелье вкусностей",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 52701,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 4,
+   "episodes": 24,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153518-IVXPDY5ph3kO.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153518-7uRvV7SLqmHV.jpg"
+  },
+  {
+   "title": "Ковбой Бибоп",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 8,
+   "episodes": 26,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-GCsPm7waJ4kS.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1-OquNCNB6srGe.jpg"
+  },
+  {
+   "title": "Досанко-гяру чудо как милы",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53421,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 5,
+   "episodes": 12,
+   "score": 7.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155963-kOnLUDAEamUe.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155963-0YBhWU1chFHt.jpg"
+  },
+  {
+   "title": "Королевство руин",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54362,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 12,
+   "score": 6.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160900-GxVB6H5ewrqv.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/160900-gjRB2UAxhcuv.jpg"
+  },
+  {
+   "title": "Магия вернувшегося должна быть особенной",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54852,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 12,
+   "score": 6.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163142-RjFeJrTnDA2B.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163142-bb4qbJTxMZ9m.jpg"
+  },
+  {
+   "title": "Пожиратель душ",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 3588,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 51,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3588-fSMggQoFSbUI.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3588.jpg"
+  },
+  {
+   "title": "Токийские мстители",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 42249,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 24,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120120-cWDmnmeEntSe.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120120-UDYgoHA69peT.jpg"
+  },
+  {
+   "title": "Смертельный парад",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 28223,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 12,
+   "score": 8.0,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20931-bktYqOcxPERi.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20931-xDhiTPZmtS3u.jpg"
+  },
+  {
+   "title": "Фермерская жизнь в ином мире",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 51462,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 12,
+   "score": 7.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146850-xfeAFIE0M9hl.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146850-GmkEchiYFCQE.jpg"
+  },
+  {
+   "title": "Моя любовь девятьсот девяносто девятого уровня к Ямаде",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 53126,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 5,
+   "episodes": 13,
+   "score": 7.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154965-vZbBRjtmLp7S.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154965-9AwJG3nVokqG.jpg"
+  },
+  {
+   "title": "Гинтама",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 918,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 201,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-iOaeBVUn4uK7.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/918-bljqHE1PFArH.jpg"
+  },
+  {
+   "title": "Девушка на час",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 40839,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 12,
+   "score": 6.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113813-SnljeXpU3Pw7.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113813-Al8VofQuNQHV.jpg"
+  },
+  {
+   "title": "Этот замечательный мир! 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 49458,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 11,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136804-7FVftG67FPBc.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136804-yHC8D64UTiRA.jpg"
+  },
+  {
+   "title": "Вельзепуз",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 9513,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 60,
+   "score": 7.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx9513-is6YiSgKbyQX.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9513-yRdRyD9wdsln.jpg"
+  },
+  {
+   "title": "Как и ожидалось, моя школьная романтическая жизнь не удалась",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 14813,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 13,
+   "score": 7.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14813-3mNvcKNEQcDs.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14813-urImBxyWJUEw.jpg"
+  },
+  {
+   "title": "Пять невест: Спецвыпуски",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 54915,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 2,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163327-xBQznOwq6emq.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163327-FadQfp1iiP6P.jpg"
+  },
+  {
+   "title": "Пинг-понг",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 22135,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "aband",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 11,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20607-fIOxVISIl0HY.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20607-AYghLMjh7reA.jpg"
+  },
+  {
+   "title": "Этот замечательный мир! Багровая легенда",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 38040,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 8.2,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102976-2Yi5icRbjukO.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102976-xv7fCzBwQ7GU.jpg"
+  },
+  {
+   "title": "Золотая пора",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 17895,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 24,
+   "score": 7.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17895-M8yjOyMxHf5X.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17895.jpg"
+  },
+  {
+   "title": "Наруто: Ураганные хроники 4 — Затерянная башня",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 8246,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 7.1,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8246-KAi3bLLdJ4OI.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8246-FfSs0aXwJpPV.jpg"
+  },
+  {
+   "title": "Ван-Пис. Фильм",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 459,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.8,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx459-Ivw65mUXackh.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/459-JqlCjcwxxFrr.jpg"
+  },
+  {
+   "title": "Ван-Пис: Приключение в глуби океана",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 1094,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1094-H3YFJ1TR0ZZi.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1094-IAIqiFbLBsig.jpg"
+  },
+  {
+   "title": "Ван-Пис: Приключение на Заводном Острове",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 460,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.7,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx460-p9HObfGUhWn0.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/460-mWAlHAJ5MuBg.jpg"
+  },
+  {
+   "title": "Ван-Пис: Королевство Чоппера на Острове Необычных Животных",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 461,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 0,
+   "epWatched": 1,
+   "episodes": 1,
+   "score": 6.4,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx461-DC9fMDl3AaK1.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/461-0pvcIaXC0p70.jpg"
+  },
+  {
+   "title": "Гуррен-Лаганн, пронзающий небеса",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 2001,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "vazut",
+   "myRating": 9,
+   "epWatched": 27,
+   "episodes": 27,
+   "score": 8.5,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2001-XwRnjzGeFWRQ.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2001-3eWhvkau8NV3.jpg"
+  },
+  {
+   "title": "Скучный мир, где не существует самой идеи похабных шуток",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 29786,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 12,
+   "score": 6.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20910-U7txwG3o9gma.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20910-QoDcFgTDAeRE.jpg"
+  },
+  {
+   "title": "Ван-Пис",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 57557,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 7,
+   "score": null,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171630-CW3kbduXmmUE.jpg",
+   "banner": null
+  },
+  {
+   "title": "Семь смертных грехов",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 23755,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 24,
+   "score": 7.3,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20789-Ma5ouSYPkru9.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20789-qwG9GcxIrmVE.jpg"
+  },
+  {
+   "title": "Моя геройская академия 2",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 33486,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "plan",
+   "myRating": 0,
+   "epWatched": 0,
+   "episodes": 25,
+   "score": 7.9,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21856-gutauxhWAwn6.png",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21856-wtSHgeHFmzdG.jpg"
+  },
+  {
+   "title": "Реинкарнация безработного: История о приключениях в другом мире 3",
+   "cat": "anime",
+   "year": "",
+   "ids": {
+    "mal": 59193,
+    "tmdb": null,
+    "imdb": null
+   },
+   "status": "curs",
+   "myRating": 0,
+   "epWatched": 2,
+   "episodes": 14,
+   "score": 8.6,
+   "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
+   "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178789-9nHWmoRLlcLu.jpg"
+  }
+ ]
+}
