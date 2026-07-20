@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local database (auth + libraries)
+.data/
+
+# local file-based DB (parole, sesiuni) - NU pe GitHub
+/.data/
