@@ -27,6 +27,16 @@ function readList(): Media[] {
   try { return JSON.parse(localStorage.getItem(LIST_KEY) || "[]"); } catch { return []; }
 }
 
+function ratingWord(n: number): string {
+  if (n >= 9) return "Masterpiece";
+  if (n >= 8) return "Great";
+  if (n >= 7) return "Very good";
+  if (n >= 6) return "Good";
+  if (n >= 5) return "Fine";
+  if (n >= 3) return "Weak";
+  return "Bad";
+}
+
 export default function TitleActions({ media, trailerId }: { media: Media; trailerId?: string | null }) {
   const { user, library, setEntry, removeEntry } = useAuth();
   const key = entryKey(media);
@@ -103,12 +113,14 @@ export default function TitleActions({ media, trailerId }: { media: Media; trail
     <>
       <div className="flex flex-col gap-4">
         <div className="flex flex-wrap items-center gap-3">
-          <button
-            onClick={() => setPlayerOpen(true)}
-            className="group flex items-center gap-2 rounded-full brand-gradient px-7 py-3 text-sm font-bold text-white shadow-glow transition hover:scale-[1.03] active:scale-95"
-          >
-            <Play size={16} /> {trailerId ? "Watch trailer" : "Open player"}
-          </button>
+          {trailerId && (
+            <button
+              onClick={() => setPlayerOpen(true)}
+              className="group flex items-center gap-2 rounded-full brand-gradient px-7 py-3 text-sm font-bold text-white shadow-glow transition hover:scale-[1.03] active:scale-95"
+            >
+              <Play size={16} /> Watch trailer
+            </button>
+          )}
 
           {/* add-to-list picker */}
           <div className="relative">
@@ -156,20 +168,35 @@ export default function TitleActions({ media, trailerId }: { media: Media; trail
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
-          <span className="text-xs text-ink-faint">Your rating:</span>
-          <div className="flex items-center gap-1" onMouseLeave={() => setHover(0)}>
-            {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
-              <button
-                key={n}
-                onMouseEnter={() => setHover(n)}
-                onClick={() => rate(n)}
-                className={`h-2.5 w-2.5 rounded-full transition-all ${n <= (hover || rating) ? "brand-gradient scale-110" : "bg-white/15 hover:bg-white/30"}`}
-                aria-label={`rate ${n}`}
-              />
-            ))}
+        <div className="flex items-center gap-3">
+          <span className="text-xs uppercase tracking-wide text-ink-faint">Your rating</span>
+          <div className="flex items-end gap-[3px]" onMouseLeave={() => setHover(0)}>
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => {
+              const active = n <= (hover || rating);
+              return (
+                <button
+                  key={n}
+                  onMouseEnter={() => setHover(n)}
+                  onClick={() => rate(n)}
+                  aria-label={`rate ${n}`}
+                  className={`w-2 rounded-full transition-all duration-150 ${
+                    active
+                      ? "brand-gradient shadow-[0_0_10px_-1px_rgba(168,85,247,0.6)]"
+                      : "bg-white/12 hover:bg-white/25"
+                  }`}
+                  style={{ height: `${12 + n * 1.5}px` }}
+                />
+              );
+            })}
           </div>
-          {rating > 0 && <span className="text-xs font-bold text-brand">{rating}/10</span>}
+          {(hover || rating) > 0 ? (
+            <span className="flex items-baseline gap-1.5">
+              <span className="text-xl font-black leading-none text-gradient">{hover || rating}</span>
+              <span className="text-[11px] font-medium text-ink-faint">/10 · {ratingWord(hover || rating)}</span>
+            </span>
+          ) : (
+            <span className="text-xs text-ink-faint">tap to rate</span>
+          )}
         </div>
       </div>
 
