@@ -11,13 +11,15 @@ export const metadata = {
 };
 
 export default async function MoviesPage() {
-  const top = await getTopMovies();
-  const animation = await getMoviesByGenre("Animation");
-  const action = await getMoviesByGenre("Action");
-  const comedy = await getMoviesByGenre("Comedy");
-  const drama = await getMoviesByGenre("Drama");
-  const thriller = await getMoviesByGenre("Thriller");
-  const horror = await getMoviesByGenre("Horror");
+  const [top, animation, action, comedy, drama, thriller, horror] = await Promise.all([
+    getTopMovies(),
+    getMoviesByGenre("Animation"),
+    getMoviesByGenre("Action"),
+    getMoviesByGenre("Comedy"),
+    getMoviesByGenre("Drama"),
+    getMoviesByGenre("Thriller"),
+    getMoviesByGenre("Horror"),
+  ]);
 
   const backdrop = top.find((m) => m.banner)?.banner ?? null;
 

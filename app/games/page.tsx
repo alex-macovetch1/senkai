@@ -16,14 +16,16 @@ export const metadata = {
 };
 
 export default async function GamesPage() {
-  // sequential keeps us well under RAWG's rate limit; all cached 1h
-  const popular = await getPopularGames();
-  const top = await getTopGames();
-  const fresh = await getNewGames();
-  const action = await getGamesByGenre("action");
-  const rpg = await getGamesByGenre("role-playing-games-rpg");
-  const shooter = await getGamesByGenre("shooter");
-  const adventure = await getGamesByGenre("adventure");
+  // parallel — RAWG handles concurrent requests fine; all cached 1h
+  const [popular, top, fresh, action, rpg, shooter, adventure] = await Promise.all([
+    getPopularGames(),
+    getTopGames(),
+    getNewGames(),
+    getGamesByGenre("action"),
+    getGamesByGenre("role-playing-games-rpg"),
+    getGamesByGenre("shooter"),
+    getGamesByGenre("adventure"),
+  ]);
 
   const backdrop = popular.find((g) => g.banner)?.banner ?? null;
 

@@ -11,13 +11,15 @@ export const metadata = {
 };
 
 export default async function SeriesPage() {
-  const top = await getTopSeries();
-  const animation = await getSeriesByGenre("Animation");
-  const drama = await getSeriesByGenre("Drama");
-  const comedy = await getSeriesByGenre("Comedy");
-  const crime = await getSeriesByGenre("Crime");
-  const action = await getSeriesByGenre("Action");
-  const scifi = await getSeriesByGenre("Sci-Fi");
+  const [top, animation, drama, comedy, crime, action, scifi] = await Promise.all([
+    getTopSeries(),
+    getSeriesByGenre("Animation"),
+    getSeriesByGenre("Drama"),
+    getSeriesByGenre("Comedy"),
+    getSeriesByGenre("Crime"),
+    getSeriesByGenre("Action"),
+    getSeriesByGenre("Sci-Fi"),
+  ]);
 
   const backdrop = top.find((m) => m.banner)?.banner ?? null;
 
