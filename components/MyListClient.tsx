@@ -182,7 +182,7 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
   const maxStatus = Math.max(1, ...statusBars.map((s) => s.count));
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
+    <div className="mx-auto max-w-7xl px-4 pb-10 pt-24 sm:px-8">
       {/* header */}
       <div className="flex items-center gap-4">
         <div className="grid h-16 w-16 shrink-0 place-items-center rounded-full brand-gradient text-2xl font-black uppercase text-white shadow-glow">{name.charAt(0)}</div>
