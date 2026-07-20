@@ -12,6 +12,7 @@ export const metadata = {
 
 export default async function MoviesPage() {
   const top = await getTopMovies();
+  const animation = await getMoviesByGenre("Animation");
   const action = await getMoviesByGenre("Action");
   const comedy = await getMoviesByGenre("Comedy");
   const drama = await getMoviesByGenre("Drama");
@@ -45,6 +46,7 @@ export default async function MoviesPage() {
 
       <div className="relative z-20 -mt-4 space-y-2">
         <MediaRow title="Top Movies" subtitle="Highest rated right now" items={top} />
+        <MediaRow title="Animation" subtitle="Cartoons & animated films" items={animation} />
         <MediaRow title="Action" items={action} />
         <MediaRow title="Comedy" items={comedy} />
         <MediaRow title="Drama" items={drama} />

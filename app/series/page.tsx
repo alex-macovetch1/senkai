@@ -12,6 +12,7 @@ export const metadata = {
 
 export default async function SeriesPage() {
   const top = await getTopSeries();
+  const animation = await getSeriesByGenre("Animation");
   const drama = await getSeriesByGenre("Drama");
   const comedy = await getSeriesByGenre("Comedy");
   const crime = await getSeriesByGenre("Crime");
@@ -45,6 +46,7 @@ export default async function SeriesPage() {
 
       <div className="relative z-20 -mt-4 space-y-2">
         <MediaRow title="Top Series" subtitle="Highest rated right now" items={top} />
+        <MediaRow title="Animation" subtitle="Cartoons & animated series" items={animation} />
         <MediaRow title="Drama" items={drama} />
         <MediaRow title="Comedy" items={comedy} />
         <MediaRow title="Crime" items={crime} />
