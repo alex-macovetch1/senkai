@@ -10,8 +10,9 @@ import { Mark, Search as SearchIcon, Logout } from "./icons";
 
 const LINKS: [string, string][] = [
   ["Home", "/"],
-  ["Browse", "/browse"],
-  ["Movies", "/browse?format=MOVIE"],
+  ["Anime", "/browse"],
+  ["Movies", "/movies"],
+  ["Series", "/series"],
   ["Games", "/games"],
   ["My List", "/my-list"],
 ];
