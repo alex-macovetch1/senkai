@@ -1,14 +1,16 @@
-import { promises as fs } from "fs";
-import path from "path";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Media } from "./types";
 import { entryKey } from "./types";
 
 export { entryKey };
 
 /* ------------------------------------------------------------------
-   Tiny JSON file store — local-first, no external service.
-   Swap this module for Supabase/Postgres when publishing online.
+   Cloud store — Supabase (Postgres). Same function surface the app
+   already used with the old JSON file, so nothing else changes.
+   Needs SUPABASE_URL and SUPABASE_SERVICE_KEY in the environment.
 ------------------------------------------------------------------ */
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export interface User {
   id: string;
@@ -21,91 +23,71 @@ export interface User {
 export interface LibEntry {
   key: string;
   media: Media;
-  status: string; // Watching | Completed | Planning | Dropped | Favorite
-  rating: number; // 0-10
+  status: string;
+  rating: number;
   updatedAt: number;
 }
 
-interface DBShape {
-  users: Record<string, User>;
-  sessions: Record<string, { userId: string; createdAt: number }>;
-  libraries: Record<string, Record<string, LibEntry>>;
-}
-
-const DB_DIR = path.join(process.cwd(), ".data");
-const DB_FILE = path.join(DB_DIR, "senkai-db.json");
-
-let cache: DBShape | null = null;
-let writeChain: Promise<void> = Promise.resolve();
-
-async function load(): Promise<DBShape> {
-  if (cache) return cache;
-  try {
-    const raw = await fs.readFile(DB_FILE, "utf8");
-    cache = JSON.parse(raw) as DBShape;
-  } catch {
-    cache = { users: {}, sessions: {}, libraries: {} };
+let _sb: SupabaseClient | null = null;
+function sb(): SupabaseClient {
+  if (_sb) return _sb;
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_KEY;
+  if (!url || !key) {
+    throw new Error("SUPABASE_URL / SUPABASE_SERVICE_KEY lipsesc (adaugă-le în .env.local).");
   }
-  return cache;
+  _sb = createClient(url, key, { auth: { persistSession: false } });
+  return _sb;
 }
 
-async function persist(): Promise<void> {
-  // serialize writes so concurrent requests don't clobber the file
-  writeChain = writeChain.then(async () => {
-    await fs.mkdir(DB_DIR, { recursive: true });
-    await fs.writeFile(DB_FILE, JSON.stringify(cache), "utf8");
-  });
-  return writeChain;
+function rowToUser(r: any): User {
+  return { id: r.id, username: r.username, salt: r.salt, hash: r.hash, createdAt: Number(r.created_at) };
+}
+function rowToEntry(r: any): LibEntry {
+  return { key: r.key, media: r.media, status: r.status, rating: r.rating, updatedAt: Number(r.updated_at) };
 }
 
 /* users */
 export async function findUserByUsername(username: string): Promise<User | null> {
-  const db = await load();
-  const u = Object.values(db.users).find((x) => x.username.toLowerCase() === username.toLowerCase());
-  return u ?? null;
+  const { data } = await sb().from("users").select("*").ilike("username", username).limit(1).maybeSingle();
+  return data ? rowToUser(data) : null;
 }
 export async function getUserById(id: string): Promise<User | null> {
-  const db = await load();
-  return db.users[id] ?? null;
+  const { data } = await sb().from("users").select("*").eq("id", id).maybeSingle();
+  return data ? rowToUser(data) : null;
 }
 export async function createUser(user: User): Promise<void> {
-  const db = await load();
-  db.users[user.id] = user;
-  db.libraries[user.id] = {};
-  await persist();
+  await sb().from("users").insert({
+    id: user.id, username: user.username, salt: user.salt, hash: user.hash, created_at: user.createdAt,
+  });
 }
 
 /* sessions */
 export async function createSession(token: string, userId: string): Promise<void> {
-  const db = await load();
-  db.sessions[token] = { userId, createdAt: Date.now() };
-  await persist();
+  await sb().from("sessions").insert({ token, user_id: userId, created_at: Date.now() });
 }
 export async function getSessionUserId(token: string): Promise<string | null> {
-  const db = await load();
-  return db.sessions[token]?.userId ?? null;
+  const { data } = await sb().from("sessions").select("user_id").eq("token", token).maybeSingle();
+  return data?.user_id ?? null;
 }
 export async function deleteSession(token: string): Promise<void> {
-  const db = await load();
-  delete db.sessions[token];
-  await persist();
+  await sb().from("sessions").delete().eq("token", token);
 }
 
 /* library */
 export async function getLibrary(userId: string): Promise<LibEntry[]> {
-  const db = await load();
-  const lib = db.libraries[userId] || {};
-  return Object.values(lib).sort((a, b) => b.updatedAt - a.updatedAt);
+  const { data } = await sb()
+    .from("library").select("*").eq("user_id", userId).order("updated_at", { ascending: false });
+  return (data ?? []).map(rowToEntry);
 }
 export async function upsertEntry(
   userId: string,
   media: Media,
   patch: { status?: string; rating?: number },
 ): Promise<LibEntry> {
-  const db = await load();
-  db.libraries[userId] = db.libraries[userId] || {};
   const key = entryKey(media);
-  const existing = db.libraries[userId][key];
+  const { data: existing } = await sb()
+    .from("library").select("status,rating").eq("user_id", userId).eq("key", key).maybeSingle();
   const entry: LibEntry = {
     key,
     media: { ...media, personal: true },
@@ -113,21 +95,18 @@ export async function upsertEntry(
     rating: patch.rating ?? existing?.rating ?? 0,
     updatedAt: Date.now(),
   };
-  db.libraries[userId][key] = entry;
-  await persist();
+  await sb().from("library").upsert({
+    user_id: userId, key, media: entry.media, status: entry.status, rating: entry.rating, updated_at: entry.updatedAt,
+  });
   return entry;
 }
 export async function removeEntry(userId: string, key: string): Promise<void> {
-  const db = await load();
-  if (db.libraries[userId]) {
-    delete db.libraries[userId][key];
-    await persist();
-  }
+  await sb().from("library").delete().eq("user_id", userId).eq("key", key);
 }
 export async function seedLibrary(userId: string, entries: LibEntry[]): Promise<void> {
-  const db = await load();
-  const lib = db.libraries[userId] || {};
-  for (const e of entries) lib[e.key] = e;
-  db.libraries[userId] = lib;
-  await persist();
+  if (!entries.length) return;
+  const rows = entries.map((e) => ({
+    user_id: userId, key: e.key, media: e.media, status: e.status, rating: e.rating, updated_at: e.updatedAt,
+  }));
+  await sb().from("library").upsert(rows);
 }
