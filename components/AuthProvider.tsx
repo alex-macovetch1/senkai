@@ -57,6 +57,7 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- load the current user from the server on mount
     refresh();
   }, [refresh]);
 

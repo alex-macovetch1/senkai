@@ -35,6 +35,7 @@ export default function SearchOverlay({ open, onClose }: { open: boolean; onClos
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reset search state when the overlay closes
       setQ("");
       setResults([]);
     }
@@ -51,6 +52,7 @@ export default function SearchOverlay({ open, onClose }: { open: boolean; onClos
 
   useEffect(() => {
     if (!q.trim()) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- clear results when the query is empty
       setResults([]);
       setLoading(false);
       return;

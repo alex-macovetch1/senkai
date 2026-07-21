@@ -8,7 +8,10 @@ import type { ReactNode } from "react";
  *  transformed ancestor (which would otherwise clip / mis-stack them). */
 export default function Portal({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- SSR-safe: portals only render after client mount
+    setMounted(true);
+  }, []);
   if (!mounted) return null;
   return createPortal(children, document.body);
 }

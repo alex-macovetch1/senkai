@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import type { Media } from "@/lib/types";
 import { mediaHref } from "@/lib/types";
 import { Trophy, Film, Flame, Clock, Hourglass, Star, ChartBar } from "@/components/icons";
@@ -45,7 +46,7 @@ function PosterCard({ m }: { m: Media }) {
     <Link href={mediaHref(m)} className="cv-auto group block">
       <div className="relative aspect-[2/3] overflow-hidden rounded-xl panel-2 ring-1 ring-white/5 transition duration-300 group-hover:ring-brand/50">
         {m.cover ? (
-          <img src={m.cover} alt={m.title} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]" />
+          <Image src={m.cover} alt={m.title} fill sizes="200px" className="object-cover transition duration-500 group-hover:scale-[1.04]" />
         ) : (
           <div className="shimmer absolute inset-0" />
         )}
@@ -225,19 +226,25 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
   // Guests aren't signed in, so their list lives in localStorage. Load it here
   // so "Add to list" actually shows up; fall back to the demo when it's empty.
   useEffect(() => {
-    if (!guest) { setSource(items); return; }
-    try {
-      const list: Media[] = JSON.parse(localStorage.getItem("senkai:list") || "[]");
-      const st = JSON.parse(localStorage.getItem("senkai:status") || "{}");
-      const rt = JSON.parse(localStorage.getItem("senkai:ratings") || "{}");
-      const mine = list.map((m) => ({
-        ...m,
-        myStatus: st[String(m.id)] || "Planning",
-        myRating: rt[String(m.id)] || 0,
-        personal: true,
-      }));
-      setSource(mine.length ? mine : items);
-    } catch { setSource(items); }
+    let next = items;
+    if (guest) {
+      try {
+        const list: Media[] = JSON.parse(localStorage.getItem("senkai:list") || "[]");
+        const st = JSON.parse(localStorage.getItem("senkai:status") || "{}");
+        const rt = JSON.parse(localStorage.getItem("senkai:ratings") || "{}");
+        const mine = list.map((m) => ({
+          ...m,
+          myStatus: st[String(m.id)] || "Planning",
+          myRating: rt[String(m.id)] || 0,
+          personal: true,
+        }));
+        if (mine.length) next = mine;
+      } catch {
+        /* malformed localStorage — fall back to the demo */
+      }
+    }
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- sync source from localStorage (guest) or props
+    setSource(next);
   }, [guest, items]);
 
   const catOf = (m: Media) =>

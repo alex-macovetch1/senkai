@@ -55,6 +55,7 @@ export default function TitleActions({ media, trailerId }: { media: Media; trail
 
   useEffect(() => {
     if (user) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- sync guest status/rating from localStorage
     setLocalStatus(readMap(STATUS_KEY)[String(media.id)] || null);
     setLocalRating(readRatings()[String(media.id)] || 0);
   }, [media.id, user]);
