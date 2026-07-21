@@ -310,7 +310,7 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
 
       {guest && (
         <div className="mt-4 flex flex-col items-center justify-between gap-3 rounded-2xl panel-strong p-4 sm:flex-row">
-          <p className="text-sm text-ink-muted">You&apos;re viewing a demo library. Sign in to build and sync your own.</p>
+          <p className="text-sm text-ink-muted">Sign in to build your list — it saves across all your devices.</p>
           <div className="flex gap-2">
             <Link href="/login" className="rounded-full panel px-4 py-2 text-sm font-semibold transition hover:bg-white/10">Log in</Link>
             <Link href="/register" className="rounded-full brand-gradient px-4 py-2 text-sm font-semibold text-white">Create account</Link>
@@ -366,8 +366,14 @@ export default function MyListClient({ items, stats, name, guest = false }: { it
             sections.map((s) => <Section key={s.key} label={s.label} items={s.items} view={view} />)
           ) : (
             <div className="py-16 text-center text-ink-faint">
-              {q ? `No titles match “${q}”.` : "Nothing here yet."}
-              {!q && !guest && <div className="mt-4"><Link href="/browse" className="rounded-full brand-gradient px-6 py-2.5 text-sm font-semibold text-white">Browse titles to add</Link></div>}
+              {q ? `No titles match “${q}”.` : guest ? "Your list is empty. Browse and add titles, then sign in to save them." : "Nothing here yet."}
+              {!q && (
+                <div className="mt-4">
+                  <Link href={guest ? "/register" : "/browse"} className="rounded-full brand-gradient px-6 py-2.5 text-sm font-semibold text-white">
+                    {guest ? "Create an account" : "Browse titles to add"}
+                  </Link>
+                </div>
+              )}
             </div>
           )}
         </div>

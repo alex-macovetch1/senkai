@@ -1,5 +1,4 @@
 import MyListClient from "@/components/MyListClient";
-import { allMine, myStats } from "@/lib/mylist";
 import { getCurrentUser } from "@/lib/auth";
 import { getLibrary, type LibEntry } from "@/lib/db";
 import type { Media } from "@/lib/types";
@@ -32,7 +31,8 @@ export default async function MyListPage() {
   const user = await getCurrentUser();
 
   if (!user) {
-    return <MyListClient name="Alex" items={allMine} stats={myStats} guest />;
+    // Not signed in: no demo library — show an empty list with a sign-in prompt.
+    return <MyListClient name="Guest" items={[]} stats={computeStats([])} guest />;
   }
 
   const lib = await getLibrary(user.id);
